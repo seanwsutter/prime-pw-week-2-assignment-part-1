@@ -67,7 +67,6 @@ if (pets < allowedPets) {
 } else {
   console.log('Oh no, I have too many pets!');
 }
-
 // STRETCH GOALS:
 
 // 16 - Make a variable called `mostPets` and a conditional that
@@ -75,6 +74,16 @@ if (pets < allowedPets) {
 // assigns the highest value to `mostPets`. There's several possibilities --
 // be sure to think through all the scenarios.
 // console.log `mostPets` after the conditional has run.
+let mostPets = 0
+if (pets < friendsPets) {
+  mostPets = friendsPets
+  console.log(mostPets)
+} else { (pets < friendsPets)
+  mostPets = pets
+  console.log(mostPets)
+}
+
+
 
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
 
