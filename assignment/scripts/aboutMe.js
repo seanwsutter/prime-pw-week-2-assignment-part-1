@@ -1,22 +1,31 @@
-// REQUIRED FEATURES: 
+// REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
-
+let firstName = 'Sean';
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
-
+let lastName = 'Sutter';
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
-
+let fullName = firstName+' '+lastName; /* NOTE: Not sure if this is really important, but I added the space for
+correct formatting with how it appears in the console log */
 // 4 - Console log the value of `fullName`
-
+console.log('My full name is', fullName);
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
-
+let luckyNumber = 36;
 // 6 - Console log this sentence, adding in the variables you created above:
 // 'My name is (full name), and I think (lucky number) is a winner!'.
+console.log('My name is', fullName + ', and I think ' + luckyNumber + ' is a winner!');
 // Refer back to the videos if you need help with this one.
 
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
-
+let adventurous = true;
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
+let breakfastFood = 'Eggs';
+let lunchFood = 'Chicken Caeser Salad';
+let dinnerFood = 'Chicken Alfredo';
+let food = breakfastFood + ', ' + lunchFood + ', ' + dinnerFood;
+console.log('In the morning I eat', breakfastFood);
+console.log('For lunch I will eat a', lunchFood);
+console.log('In the evening I like to eat', dinnerFood);
 
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
 
