@@ -1,4 +1,5 @@
 // REQUIRED FEATURES:
+
 // 1 - Create a variable called `firstName` and assign it the value of your first name
 let firstName = 'Sean';
 
@@ -111,3 +112,5 @@ switch (mostPets) {
 }
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
+let morePets = (pets > friendsPets) ? pets : friendsPets
+console.log('I have the most pets at:', morePets);
