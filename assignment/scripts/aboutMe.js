@@ -32,19 +32,17 @@ answered #8 with less console logs but I thought I'd mess around a bit. Ill ask 
 formatting and if its something worth spending time on. */
 
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
-let pets = 3;
+let pets = 2;
 console.log('Number of pets I have:', pets);
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-let friendsPets = 1;
+let friendsPets = 2;
 console.log('Number of pets my friend has:', friendsPets);
 // 11 - Add two pets to your `pets` variable
-pets = 5;
+pets = 4;
 console.log('I gained two more pets, I now have:', pets);
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 const allowedPets = 3;
-console.log('I am only allowed to have this many pets:', allowedPets);
-
-
+console.log('I am allowed to have this many pets:', allowedPets);
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!",
 // if it's not true, console log "How about we stay home?"
 if (adventurous) {
@@ -52,18 +50,23 @@ if (adventurous) {
 } else {
   console.log('How about we stay home?')
 }
-
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
-if (adventurous && luckyNumber === 2) {
+if (adventurous && luckyNumber == 2) {
   console.log('Roll the dice!')
 }
-
 // 15 - Write a conditional that console logs "I can have more pets!"
-//if the value of `pets` is less than the value of `allowedPets`,
+// if the value of `pets` is less than the value of `allowedPets`,
 // console logs "I have enough pets" if the value of `pets` is equal to the value of `allowedPets`,
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
+if (pets < allowedPets) {
+  console.log('I can have more pets!');
+} else if (pets == allowedPets) {
+  console.log('I have enough pets.');
+} else {
+  console.log('Oh no, I have too many pets!');
+}
 
 // STRETCH GOALS:
 
