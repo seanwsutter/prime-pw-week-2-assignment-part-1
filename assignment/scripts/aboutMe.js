@@ -10,7 +10,7 @@ correct formatting with how it appears in the console log */
 // 4 - Console log the value of `fullName`
 console.log('My full name is', fullName);
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
-let luckyNumber = 36;
+let luckyNumber = 2;
 // 6 - Console log this sentence, adding in the variables you created above:
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 console.log('My name is', fullName + ', and I think ' + luckyNumber + ' is a winner!');
@@ -19,28 +19,45 @@ console.log('My name is', fullName + ', and I think ' + luckyNumber + ' is a win
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 let adventurous = true;
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
-let breakfastFood = 'Eggs';
-let lunchFood = 'Chicken Caeser Salad';
-let dinnerFood = 'Chicken Alfredo';
-let food = breakfastFood + ', ' + lunchFood + ', ' + dinnerFood;
-console.log('In the morning I eat', breakfastFood);
-console.log('For lunch I will eat a', lunchFood);
-console.log('In the evening I like to eat', dinnerFood);
+let favBreakfastFood = 'Eggs';
+console.log('In the morning, I like to eat', favBreakfastFood);
+let favLunchFood = 'Chicken Caeser Salad';
+console.log('For lunch, I will get a', favLunchFood);
+let favDinnerFood = 'Chicken Alfredo';
+console.log('In the evening, I might have', favDinnerFood);
+let food = favBreakfastFood + ', ' + favLunchFood + ', ' + favDinnerFood;
+console.log('These are some of my favorite foods:', food);
+/* NOTE: Not sure if the formatting is important for how things appear in the console, I probably could have
+answered #8 with less console logs but I thought I'd mess around a bit. Ill ask for feedback next class about
+formatting and if its something worth spending time on. */
 
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
-
+let pets = 3;
+console.log('Number of pets I have:', pets);
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-
+let friendsPets = 1;
+console.log('Number of pets my friend has:', friendsPets);
 // 11 - Add two pets to your `pets` variable
-
+pets = 5;
+console.log('I gained two more pets, I now have:', pets);
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
+const allowedPets = 3;
+console.log('I am only allowed to have this many pets:', allowedPets);
+
 
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!",
 // if it's not true, console log "How about we stay home?"
-
+if (adventurous) {
+  console.log('Adventures are great!')
+} else {
+  console.log('How about we stay home?')
+}
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
+if (adventurous && luckyNumber === 2) {
+  console.log('Roll the dice!')
+}
 
 // 15 - Write a conditional that console logs "I can have more pets!"
 //if the value of `pets` is less than the value of `allowedPets`,
