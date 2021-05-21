@@ -21,11 +21,15 @@ let luckyNumber = 2;
 // 6 - Console log this sentence, adding in the variables you created above:
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 console.log('My name is', fullName + ', and I think ' + luckyNumber + ' is a winner!');
+console.log(`My name is ${fullName}. and I think ${luckyNumber} is a winner!`);
+
+// String interpolation
 
 // Refer back to the videos if you need help with this one.
 
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 let adventurous = true;
+let empty = luckyNumber - 3;
 
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
 let favBreakfastFood = 'Eggs';
@@ -50,8 +54,8 @@ let friendsPets = 2;
 console.log('Number of pets my friend has:', friendsPets);
 
 // 11 - Add two pets to your `pets` variable
-pets = 4;
-console.log('I gained two more pets, I now have:', pets);
+pets += 2;
+console.log('I gaianed two more pets, I now have:', pets);
 
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 const allowedPets = 3;
@@ -114,3 +118,5 @@ switch (mostPets) {
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 let morePets = (pets > friendsPets) ? pets : friendsPets
 console.log('I have the most pets at:', morePets);
+
+// mostPets = pets >= friendsPets ? pets : friendsPets;
